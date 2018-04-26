@@ -10,7 +10,9 @@ export default function(props) {
 	return (
 		<Container style={style}>
 			<Header><Link to="/">Crypto Kitties</Link></Header>
-			<Link to="/task">Kitties</Link>
+			<Link to="/">Kitties</Link>
+			<span> | </span>
+			<Link to="/transactions">Transactions</Link>
 			<span> | </span>
 			<Link to="/task">Task</Link>
 			<Divider hidden />
